@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Kunle's Kalkulator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<center><h1>Kunle's Kalkulator</h1></center>
+<body>
+
+	<center>	
+		<table class="keypad">
+			<form name="form">
+				<tr>
+					<td colspan="4"><input id = "displaybox" type="text" name="display" placeholder="0" readonly></td>
+				</tr>
+				<tr>
+					<td><input type="button" id="clear" class="keys grey" value="C"></input></td>
+					<td><input type="button" class="keys grey" value="(" id="leftbrak"></input></td>
+					<td><input type="button" class="keys grey" value=")" id="rightbrak"></input></td>
+					<td><input type="button" class="keys orange" value="÷" id="div"></input></td>
+				</tr>
+				<tr>
+					<td><input type="button" id="7" class="keys" value="7"></input></td>
+					<td><input type="button" class="keys" value="8" id="8"></input></td>
+					<td><input type="button" class="keys" value="9" id="9""></input></td>
+					<td><input type="button" class="keys orange" value="x" id="mult"></input></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="keys" value="4" id="4"></input></td>
+					<td><input type="button" class="keys" value="5" id="5"></input></td>
+					<td><input type="button" class="keys" value="6" id="6"></input></td>
+					<td><input type="button" class="keys orange" value="-" id="minus"></input></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="keys" value="1" id="1"></input></td>
+					<td><input type="button" class="keys" value="2" id="2"></input></td>
+					<td><input type="button" class="keys" value="3" id="3"></input></td>
+					<td><input type="button" class="keys orange" value="+" id="plus"></input></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="button" class="keys" value="0" id="0"></input></td>
+					<td><input type="button" class="keys grey" value="." id="dot"></input></td>
+					<td><input type="button" class="keys red" value="=" id="equals"></input></td>
+				</tr>
+			</form>
+		</table>
+	</center>
+	<footer>
+		<center><p><a href="https://kunsebastian.github.io/portfolio/">Kunle Badeafuye</a> &copy; 2018</p></center>
+	</footer>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</html>
